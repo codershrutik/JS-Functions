@@ -7,17 +7,24 @@
 // collectEggs();
 // console.log(totalEggs);
 
-let bird = 'Parrot';
-function birdWatch(){
-    let bird = 'Pigeon';
-    console.log(bird);
-}
+// let bird = 'Parrot';
+// function birdWatch(){
+//     let bird = 'Pigeon';
+//     console.log(bird);
+// }
 
-let radius = 8;
-if(radius>0){
-    const PI = 3.14159;
-    let msg = 'HIII';
-}
+// let radius = 8;
+// if(radius>0){
+//     const PI = 3.14159;
+//     let msg = 'HIII';
+// }
 
-console.log(radius);
-console.log(PI);
+// console.log(radius);
+// console.log(PI);
+
+for(let i=0; i<5;i++){
+    var msg = "akdhakjdb";
+    console.log(msg);
+}
+console.log(msg);
+console.log(i);
