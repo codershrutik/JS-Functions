@@ -57,27 +57,34 @@
 // }
 // callTwice(rollDie);
 
-function makeMysteryFunc(){
-    const rand = Math.random();
-    if(rand>0.5){
-        return function(){
-            console.log("You won the lottery");
-        }
-    } else{
-        return function(){
-            alert("YOU HAVE A COMPUTER VIRUS");
-            alert("STOP TRYING TO CLOSE THIS WINDOW");
-            alert("STOP TRYING TO CLOSE THIS WINDOW");
-            alert("STOP TRYING TO CLOSE THIS WINDOW");
-            alert("STOP TRYING TO CLOSE THIS WINDOW");
-            alert("STOP TRYING TO CLOSE THIS WINDOW");
-        }
+// function makeMysteryFunc(){
+//     const rand = Math.random();
+//     if(rand>0.5){
+//         return function(){
+//             console.log("You won the lottery");
+//         }
+//     } else{
+//         return function(){
+//             alert("YOU HAVE A COMPUTER VIRUS");
+//             alert("STOP TRYING TO CLOSE THIS WINDOW");
+//             alert("STOP TRYING TO CLOSE THIS WINDOW");
+//             alert("STOP TRYING TO CLOSE THIS WINDOW");
+//             alert("STOP TRYING TO CLOSE THIS WINDOW");
+//             alert("STOP TRYING TO CLOSE THIS WINDOW");
+//         }
+//     }
+// }
+
+// function isBetween(num){
+//     return num>=50 && num<=100
+// }
+// function isBetween2(num){
+//     return num>=1 && num<=10
+// }
+
+function makeBetween(min, max){
+    return function(num){
+        return num>= min && num<=max;
     }
 }
 
-function isBetween(num){
-    return num>=50 && num<=100
-}
-function isBetween2(num){
-    return num>=1 && num<=10
-}
