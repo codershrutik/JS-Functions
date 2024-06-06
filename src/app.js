@@ -82,18 +82,28 @@
 //     return num>=1 && num<=10
 // }
 
-function makeBetween(min, max){
-    return function(num){
-        return num>= min && num<=max;
-    }
-}
+// function makeBetween(min, max){
+//     return function(num){
+//         return num>= min && num<=max;
+//     }
+// }
 
-const myMath = {
-    PI: 3.14159,
-    square: function(num){
-        return num * num;
-    },
-    cube: function(num){
-        return num * num * num;
+// const myMath = {
+//     PI: 3.14159,
+//     square: function(num){
+//         return num * num;
+//     },
+//     cube: function(num){
+//         return num * num * num;
+//     }
+// }
+
+const cat = {
+    name: 'Smoky',
+    color: 'grey',
+    breed: 'mixed',
+    meow(){
+        console.log('MEOW MEOW MEOW');
+        CloseEvent.log(`${this.name} says MEOW`);
     }
 }
