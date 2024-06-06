@@ -29,12 +29,16 @@
 // console.log(msg);
 // console.log(i);
 
-function bankRobbery(){
-    const heroes = ['Spierman','Batman','Black Panther'];
-    function cryForHelp(){
-        for(let heroes of heroes){
-            console.log(`Please help me, ${hero.toUpperCase()}`);
-        }
-    }
-    cryForHelp();
+// function bankRobbery(){
+//     const heroes = ['Spierman','Batman','Black Panther'];
+//     function cryForHelp(){
+//         for(let heroes of heroes){
+//             console.log(`Please help me, ${hero.toUpperCase()}`);
+//         }
+//     }
+//     cryForHelp();
+// }
+
+function add(x,y){
+    return x+y;
 }
