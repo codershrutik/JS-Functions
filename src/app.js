@@ -98,12 +98,18 @@
 //     }
 // }
 
-const cat = {
-    name: 'Smoky',
-    color: 'grey',
-    breed: 'mixed',
-    meow(){
-        console.log('MEOW MEOW MEOW');
-        CloseEvent.log(`${this.name} says MEOW`);
-    }
+// const cat = {
+//     name: 'Smoky',
+//     color: 'grey',
+//     breed: 'mixed',
+//     meow(){
+//         console.log('MEOW MEOW MEOW');
+//         CloseEvent.log(`${this.name} says MEOW`);
+//     }
+// }
+
+try{
+    hello.toUpperCase();
+} catch{
+    console.log("ERROE!!");
 }
