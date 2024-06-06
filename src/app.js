@@ -22,9 +22,19 @@
 // console.log(radius);
 // console.log(PI);
 
-for(let i=0; i<5;i++){
-    var msg = "akdhakjdb";
-    console.log(msg);
+// for(let i=0; i<5;i++){
+//     var msg = "akdhakjdb";
+//     console.log(msg);
+// }
+// console.log(msg);
+// console.log(i);
+
+function bankRobbery(){
+    const heroes = ['Spierman','Batman','Black Panther'];
+    function cryForHelp(){
+        for(let heroes of heroes){
+            console.log(`Please help me, ${hero.toUpperCase()}`);
+        }
+    }
+    cryForHelp();
 }
-console.log(msg);
-console.log(i);
